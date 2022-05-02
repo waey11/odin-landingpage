@@ -1,0 +1,17 @@
+#hlogo{ 
+
+margin:0px;
+}
+
+ul{ 
+list-style-type: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.navlinks{ 
+display:flex; 
+    flex-direction: row;
+    justify-content:space-between;
+}
