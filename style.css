@@ -1,3 +1,22 @@
+footer {
+     background-color: #1F2937;
+     color: #E5E7EB;
+}
+nav{ 
+
+margin-right:90px;
+margin-left:30px;
+}
+
+section h1 p{ 
+
+display: flex; 
+    justify-content: flex-start;
+    margin:60px;
+}
+
+
+
 #hlogo{ 
 
 margin:0px;
@@ -8,10 +27,30 @@ list-style-type: none;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
+    
 }
+
 
 .navlinks{ 
 display:flex; 
     flex-direction: row;
     justify-content:space-between;
+    gap:10px;
+}
+
+.container{ 
+
+
+display:flex;
+justify-content: space-around;
+}
+
+
+.container #main-right{ 
+
+
+flex-direction: row;
+    margin-left:20px;
+    justify-content: center;
+    flex-shrink: 1;
 }
