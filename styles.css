@@ -1,3 +1,154 @@
-body{
+
+.section1 , .section2{
+color:#F9FAF8;
+background-color: #1F2937;
+padding-left: 100px !important;
+padding-right:100px !important;
+}
+
+.section1{ display:flex;
+   justify-content:space-between;
+padding:15px;}
+ul{ 
+   display:flex;
+  
+ 
+
+}
+li{
+   margin-left:10px;
+}
+a{
+   text-decoration:none; 
+   color:#E5E7Eb;
+   font-size:24px;
+}
+.s1logo{ 
+   font-weight:bold;
+   font-size:48px;
+}
+
+
+.section2{
+   display:flex;
+   justify-content: center;
+
+}
+img{
+   boarder-radius:4px;
+   width:300px;
+   margin-left:30px;
+}
+.s1left{
+   margin-top:100px;
+   margin-right:20px;
+  
+}
+.s1leftp{
+   font-weight: bold;
    font-family: 'Roboto', sans-serif;
+   font-size:24px;
+   margin-bottom:5px;
+}
+.s1leftp2, .ps3{ 
+   font-family: 'Roboto', sans-serif;
+   font-size:16px;
+}
+
+#s1leftbtn {
+   margin-top:10px;
+   background-color: #3882f6;
+   border: bold;
+   padding-top:5px;
+   padding-bottom: 5px;;
+   padding-right:15px;
+   padding-left:15px;
+font-size:15px;
+   border-radius: 8px;
+}
+.h1s3{ 
+   font-weight: bold;
+  text-align: center;
+  padding-top:10px;
+  font-size:24px;
+}
+.section3{ 
+   margin-top:30px;
+   display:flex;
+
+flex-direction: row;
+justify-content: space-around;}
+
+.s3img{ 
+   boarder-radius:4px;
+   width:200px;
+   margin-left:30px;
+}
+.ps3{ 
+   padding-left: 50px;;
+}
+
+.section4{
+
+background-color:#e5e7eb ;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+font-family: 'Roboto', sans-serif;
+}
+.section5{ 
+   text-align: center;
+
+  
+
+}
+.author{ 
+   font-weight: bold;
+
+}
+
+.section5{ 
+ 
+   width: 300px;
+   background-color:#3882f6;
+   border: 15px thin black;
+   padding: 30px;
+   margin: 20px;
+ display:flex;
+ justify-content: space-between;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{ 
+ 
+   background-color: #1F2937;
+   text-align: center;
+   color:#E5E7Eb;
+  font-family: 'Roboto', sans-serif;
+   padding-top:10px;
+   padding-bottom: 10px;
+}
+
+#s5btn{
+
+   background-color: #5aa8db;
+   border: bold;
+   border-radius: 8px;
+   padding-top:5px;
+   padding-bottom: 5px;;
+   padding-right:15px;
+   padding-left:15px;
+font-size:15px;
+}
+
+
+#s5btn:hover, #s1leftbtn:hover {
+  background-color: #1F2937;
+   transition: 0.7s;
+   color:white;
+  
+}
+a:hover{ 
+   color:orange;
 }
